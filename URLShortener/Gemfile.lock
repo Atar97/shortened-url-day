@@ -40,6 +40,9 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
+    annotate (2.7.3)
+      activerecord (>= 3.2, < 6.0)
+      rake (>= 10.4, < 13.0)
     arel (8.0.0)
     bindex (0.5.0)
     builder (3.2.3)
@@ -112,6 +115,7 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.0.4)
       loofah (~> 2.2, >= 2.2.2)
+    rails-pry (0.0.1)
     railties (5.1.6)
       actionpack (= 5.1.6)
       activesupport (= 5.1.6)
@@ -175,6 +179,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  annotate
   byebug
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
@@ -183,6 +188,7 @@ DEPENDENCIES
   pg (>= 0.18, < 2.0)
   puma (~> 3.7)
   rails (~> 5.1.6)
+  rails-pry
   sass-rails (~> 5.0)
   selenium-webdriver
   spring
